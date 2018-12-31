@@ -22,6 +22,15 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
+config :tello_control, TelloControl.Video.Socket, TelloControl.Video.Socket
+
+# Uncomment the following lines to use a prerecorded h.264 capture instead
+# of listening for video from the drone:
+
+# config :tello_control, TelloControl.Video.Socket, TelloControl.Video.FakeSocket
+# config :tello_control, TelloControl.Video.FakeSocket,
+#   capture_file: "/Users/ben/drone.h264"
+
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{Mix.env()}.exs"

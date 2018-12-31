@@ -1,7 +1,7 @@
 defmodule TelloControlWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :tello_control
 
-  socket "/socket", TelloControlWeb.UserSocket,
+  socket "/video", TelloControlWeb.VideoSocket,
     websocket: true,
     longpoll: false
 
