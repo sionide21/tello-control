@@ -1,19 +1,9 @@
-# TelloControl
+# Tello Control
 
-To start your Phoenix server:
+Web interface to control a [Tello](https://www.ryzerobotics.com/tello) drone.
 
-  * Install dependencies with `mix deps.get`
-  * Install Node.js dependencies with `cd assets && npm install`
-  * Start Phoenix endpoint with `mix phx.server`
+## Resources
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+  * NAL Header Format: https://yumichan.net/video-processing/video-compression/introduction-to-h264-nal-unit/
+  * Tello Official API: https://dl-cdn.ryzerobotics.com/downloads/tello/20180910/Tello%20SDK%20Documentation%20EN_1.3.pdf
+  * Tello Dev Forum: https://tellopilots.com/forums/tello-development.8/
